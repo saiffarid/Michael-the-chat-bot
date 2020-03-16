@@ -1,4 +1,4 @@
-from functions import *
+from functions - for GitHub. import *
 from alive_progress import alive_bar
 import sys
 from datetime import datetime
