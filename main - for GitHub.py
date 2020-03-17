@@ -25,6 +25,11 @@ while True:
                 command = listen()
                 os.system('cls')
                 print_info()
+        except sr.UnknownValueError:
+            os.system('cls')
+            print_info()
+            print("Michael: How may I help you ?")
+            continue
         except sr.RequestError:
             recognizing_speech_error = True
             break
